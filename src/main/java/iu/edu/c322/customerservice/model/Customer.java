@@ -14,7 +14,6 @@ public class Customer {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
-    @NotEmpty(message = "name cannot be empty")
     private String name;
 
     private String email;
